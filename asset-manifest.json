@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blu-lab/static/css/main.28c87552.css",
-    "main.js": "/Blu-lab/static/js/main.aaf7cc25.js",
+    "main.css": "/Blu-lab/static/css/main.525f7f5d.css",
+    "main.js": "/Blu-lab/static/js/main.53542fb4.js",
     "static/js/787.0ba80b62.chunk.js": "/Blu-lab/static/js/787.0ba80b62.chunk.js",
     "static/media/logo.png": "/Blu-lab/static/media/logo.5fc3e8d0e9583f0bdef1.png",
     "static/media/Connected world.svg": "/Blu-lab/static/media/Connected world.8891f66b0318a80954f00f57d180b58d.svg",
@@ -9,12 +9,12 @@
     "static/media/hero.svg": "/Blu-lab/static/media/hero.fb287937583b317fe434e57016069bfb.svg",
     "static/media/Isms.png": "/Blu-lab/static/media/Isms.b43bee67be388dbff8fd.png",
     "index.html": "/Blu-lab/index.html",
-    "main.28c87552.css.map": "/Blu-lab/static/css/main.28c87552.css.map",
-    "main.aaf7cc25.js.map": "/Blu-lab/static/js/main.aaf7cc25.js.map",
+    "main.525f7f5d.css.map": "/Blu-lab/static/css/main.525f7f5d.css.map",
+    "main.53542fb4.js.map": "/Blu-lab/static/js/main.53542fb4.js.map",
     "787.0ba80b62.chunk.js.map": "/Blu-lab/static/js/787.0ba80b62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28c87552.css",
-    "static/js/main.aaf7cc25.js"
+    "static/css/main.525f7f5d.css",
+    "static/js/main.53542fb4.js"
   ]
 }
