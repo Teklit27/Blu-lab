@@ -1,67 +1,66 @@
-Blu Lab Landing Page 
+markdown
 
-Welcome to the documentation for my React-based landing page project. This landing page is designed to showcase various sections of a website, including a navigation bar, home section, about us section, services section, products section, and contact section. Additionally, it features a dark mode toggle for enhanced user experience.
-Table of Contents
+# Blu Lab Landing Page
 
-    Project Structure
-    Getting Started
-    Usage
-    Components
-    Customization
-    
+Welcome to the documentation for my React-based landing page project. This landing page is designed to showcase various sections of a website, including a navigation bar, home section, about us section, services section, products section, and contact section. Additionally, it features a dark mode toggle for an enhanced user experience.
 
-Project Structure
+## Table of Contents
 
-The project structure is organized as follows:
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Components](#components)
+- [Customization](#customization)
 
+## Project Structure
 
-
-Blu-lab/
+The project structure is organized as follows:Blu-lab/
 ├── src/
-    ├── Hooks/
-│   │   ├── Navbar.js
-│   │   └──useDarkside.js
-│   ├── assets/
-│   │   ├── Hero.svg
-│   │   
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── Home.js
-│   │   ├── AboutUs.js
-│   │   ├── Services.js
-│   │   ├── Products.js
-│   │   ├── Contact.js
-│   │   └── DarkModeToggle.js
-│   ├── App.js
-│   ├── index.js
-│   ├── styles.css
-│   └── ...
+│ ├── Hooks/
+│ │ ├── Navbar.js
+│ │ └── useDarkside.js
+│ ├── assets/
+│ │ ├── Hero.svg
+│ ├── components/
+│ │ ├── Navbar.js
+│ │ ├── Home.js
+│ │ ├── AboutUs.js
+│ │ ├── Services.js
+│ │ ├── Products.js
+│ │ ├── Contact.js
+│ │ └── DarkModeToggle.js
+│ ├── App.js
+│ ├── index.js
+│ ├── styles.css
+│ └── ...
 ├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   └── ...
+│ ├── index.html
+│ ├── favicon.ico
+│ └── ...
 ├── package.json
 ├── README.md
 └── ...
 
-    src/: Contains React components and application logic.
-    public/: Contains public assets and HTML files.
-    package.json: Project dependencies and scripts configuration.
-    README.md: Documentation for the project.
+markdown
 
-Getting Started
+
+- `src/`: Contains React components and application logic.
+- `public/`: Contains public assets and HTML files.
+- `package.json`: Project dependencies and scripts configuration.
+- `README.md`: Documentation for the project.
+
+## Getting Started
 
 To run this project locally, follow these steps:
 
-    Clone the repository to your local machine:
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Teklit27/Blu-lab.git
+
+    Navigate to the project directory:
 
     bash
-
-git clone https://github.com/Teklit27/Blu-lab.git
-
-Navigate to the project directory:
-
-bash
 
 cd Blu-lab
 
@@ -81,10 +80,7 @@ bash
 
 Usage
 
-The landing page features multiple sections, including a navigation bar, home, about us, services, products, and contact. You can customize the content of these sections according to your requirements.
-
-most importantlly it uses React-Spring for animation on navigation and on scroll.
-
+The landing page features multiple sections, including a navigation bar, home, about us, services, products, and contact. You can customize the content of these sections according to your requirements. Importantly, it uses React-Spring for animations on navigation and scrolling.
 Components
 
     Navbar.js: The navigation bar component with a dark mode toggle button.
