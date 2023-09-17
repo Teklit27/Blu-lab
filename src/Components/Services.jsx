@@ -1,27 +1,27 @@
 // Services.js
 
-import { FaCog, FaChartLine, FaLock } from 'react-icons/fa';
+import { FaCog, FaPaintBrush, FaSchool,FaGlobe } from 'react-icons/fa';
 
 const services = [
   {
+    title: 'Software Product Engineering  ',
     icon: <FaCog size={40} />,
-    title: 'Custom Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description:" Transform ideas into powerful software products. Our expert teams handle everything from concept to launch, focusing on innovation and user-centric design."
   },
   {
-    icon: <FaChartLine size={40} />, 
-    title: 'Analytics & Reporting',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    icon: <FaPaintBrush size={40} />, 
+    title: 'UI/UX Design',
+    description: ' Craft captivating user experiences. Our designers create interfaces that engage users and leave a lasting impact.',
   },
   {
-    icon: <FaLock size={40} />,
-    title: 'Secure Infrastructure',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    icon: <FaSchool size={40} />,
+    title: 'School Management System',
+    description: 'Modernize education administration. Our system streamlines tasks and enhances communication for students, educators, and parents.',
   },
   {
-    icon: <FaLock size={40} />,
-    title: 'Secure Infrastructur',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    icon: <FaGlobe size={40} />,
+    title: 'Web Solutions',
+    description: 'Elevate your online presence. We deliver high-performance websites and e-commerce solutions tailored to your business needs.',
   },
 ]
 
@@ -30,7 +30,7 @@ export default function Services() {
     <section className=" py-14">
       <div className="px-4 md:px-32 text-center">
         <h2 className=" md:text-xl font-semibold text-indigo-500">Our Services</h2>
-        <h2 className="text-lg md:text-2xl font-semibold mb-8 ">we provide best quality services</h2>
+        <h2 className="text-lg md:text-2xl font-semibold mb-8 dark:text-slate-50">we provide best quality services</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         

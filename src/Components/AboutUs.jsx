@@ -8,11 +8,11 @@ import World from "../assets/Connected world.svg"
 export default function Aboutus() {
 
   return (
-    <section id="about" className="px-4 md:px-32 text-center">
+    <section id="about" className="px-4 md:px-32 text-center mt-16 md:mt-0">
       <div className="container mx-auto px-4">
 
         <h2 className=" md:text-xl font-semibold text-indigo-500">About Us</h2>
-        <h2 className="text-lg md:text-2xl font-semibold mb-8 ">What's important to us</h2>
+        <h2 className="text-lg md:text-2xl font-semibold mb-8 dark:text-white ">What's important to us</h2>
         
 
         <div className="flex flex-wrap">
@@ -20,8 +20,8 @@ export default function Aboutus() {
           <div className="flex flex-wrap items-center w-full h-3/5 ">
 
             <div className="w-full md:w-1/2 px-4   items-center">
-              <h3 className="text-2xl font-bold mb-4">Our company's mission and vision</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-2xl font-bold mb-4 text-indigo-500">Our company's mission and vision</h3>
+              <p className="text-gray-600 leading-relaxed dark:text-slate-50">
               At Blu Lab Software, we leverage our decades of software engineering expertise to help businesses accelerate growth and innovation. 
               Our custom software development services allow companies to transform legacy systems, develop cutting-edge apps, and keep pace with industry disruption. We focus on understanding your business goals first, then develop software that meets those objectives.
                 </p>
@@ -40,8 +40,8 @@ export default function Aboutus() {
             </div>
 
             <div className="w-full md:w-1/2 px-4   items-center">
-              <h3 className="text-2xl font-bold mb-4">We Are Here to Boost Your Business</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <h3 className="text-2xl font-bold mb-4 dark:text-indigo-500">We Are Here to Boost Your Business</h3>
+              <p className="text-gray-600 leading-relaxed dark:text-slate-50">
               At Blu Lab Software, we leverage our decades of software engineering expertise to help businesses accelerate growth and innovation. 
               Our custom software development services allow companies to transform legacy systems, develop cutting-edge apps, and keep pace with industry disruption. We focus on understanding your business goals first, then develop software that meets those objectives.
                 </p>

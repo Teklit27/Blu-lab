@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import logo from '../assets/logo.png'
+import Switcher from './Switcher';
 
 export default function Navbar({activeSection,scrollToSection}) {
 
@@ -18,7 +19,7 @@ export default function Navbar({activeSection,scrollToSection}) {
           </button>
 
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-center space-x-4">
               <button onClick={()=>scrollToSection('Services')} className="font-semibold text-white  hover:text-white px-3 py-2 rounded-md">
               Services  
               </button>
@@ -28,6 +29,7 @@ export default function Navbar({activeSection,scrollToSection}) {
               <button onClick={()=>scrollToSection('Contact')} className="font-semibold text-white  hover:text-white px-3 py-2 rounded-md">
                 Contact
               </button>
+              <Switcher/>
             </div>
           </div>
 
@@ -46,16 +48,19 @@ export default function Navbar({activeSection,scrollToSection}) {
       </div>
 
       <div className={`md:hidden ${ isOpen ? 'block' : 'hidden' }`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-blue-500">
-          <a href="/" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md">
-            Home
-          </a>
-          <a href="/about" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md">
-            About
-          </a>
-          <a href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md">
-            Contact
-          </a>
+        <div className="px-2  bg-blue-500">
+              <button onClick={()=>scrollToSection('Services')} className="font-medium block text-white  hover:text-white px-3 py-2 rounded-md">
+                Services  
+              </button>
+              <button onClick={()=>scrollToSection('AboutUs')} className="font-medium block text-white  hover:text-white px-3 py-2 rounded-md">
+                About
+              </button> 
+              <button onClick={()=>scrollToSection('Contact')} className="font-medium block text-white  hover:text-white px-3 py-2 rounded-md">
+                Contact
+              </button>
+              <div className='mx-3 pb-2'>
+               <Switcher/>
+              </div>
         </div>
       </div>
 

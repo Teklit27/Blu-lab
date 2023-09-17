@@ -70,7 +70,7 @@ function App() {
   return (
     <div className="App" style={{ overflow: "hidden" }}>
       <Navbar activeSection={activeSection} scrollToSection={(val)=>scrollToSection(val)} />
-      <div className="max-w-full bg-slate-50">
+      <div className="max-w-full bg-slate-50 dark:bg-slate-600">
         <animated.div id="Home" style={sections.Home}>
           <Home />
         </animated.div>

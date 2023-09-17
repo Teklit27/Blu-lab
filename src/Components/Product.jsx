@@ -40,21 +40,22 @@ export default function Products() {
     from: { opacity: 0 },
     enter: { opacity: 1 },
     // leave: { opacity: 0 },
-    config: config.default,
+    config: config.slow,
   });
 
   return (
-    <div className=" px-4 md:mx-48 md:px-32 md:flex  items-center justify-center">
+    <div className=" px-4 md:mx-5 md:px-32 md:flex  items-center justify-center">
       {transitions(({ opacity }, item) => (
         <>
           <div
-            className={`w-full md:w-3/5 h-52 p-4 rounded-lg shadow-lg bg-indigo-400 md:rounded-r-none`}
+            className={`w-full md:w-3/5 h-64 md:h-52 p-4 rounded-lg shadow-lg bg-slate-400 md:rounded-r-none`}
           >
             <div className=" flex align-middle items-center">
             <img src={logo} alt="Logo" className="h-14 " />
             <h2 className="font-bold text-xl items-center text-center flex-1 text-white">Our latest product</h2>
             </div>
             <p className="text- "><span className="font-bold">ISMS.et</span> provides a modern way to learning. We provide a Educational managment system that is easy to use and minimizes work overheads for schools and parents alike. </p>
+            <button className="mt-2 text-white justify-start bg-indigo-600 py-2 px-4 rounded-md "><a href="https://www.isms.et/" target="_blank">Learn more</a></button>
           </div>
           <animated.div
             style={{ opacity }}
