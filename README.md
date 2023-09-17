@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+Blu Lab Landing Page 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the documentation for my React-based landing page project. This landing page is designed to showcase various sections of a website, including a navigation bar, home section, about us section, services section, products section, and contact section. Additionally, it features a dark mode toggle for enhanced user experience.
+Table of Contents
 
-## Available Scripts
+    Project Structure
+    Getting Started
+    Usage
+    Components
+    Customization
+    
 
-In the project directory, you can run:
+Project Structure
 
-### `npm start`
+The project structure is organized as follows:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Blu-lab/
+├── src/
+    ├── Hooks/
+│   │   ├── Navbar.js
+│   │   └──useDarkside.js
+│   ├── assets/
+│   │   ├── Hero.svg
+│   │   
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Home.js
+│   │   ├── AboutUs.js
+│   │   ├── Services.js
+│   │   ├── Products.js
+│   │   ├── Contact.js
+│   │   └── DarkModeToggle.js
+│   ├── App.js
+│   ├── index.js
+│   ├── styles.css
+│   └── ...
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ...
+├── package.json
+├── README.md
+└── ...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    src/: Contains React components and application logic.
+    public/: Contains public assets and HTML files.
+    package.json: Project dependencies and scripts configuration.
+    README.md: Documentation for the project.
 
-### `npm run build`
+Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    bash
 
-### `npm run eject`
+git clone https://github.com/Teklit27/Blu-lab.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd Blu-lab
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install project dependencies:
 
-## Learn More
+bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the development server:
 
-### Code Splitting
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    npm start
 
-### Analyzing the Bundle Size
+    Open your web browser and visit http://localhost:3000 to view the landing page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Usage
 
-### Making a Progressive Web App
+The landing page features multiple sections, including a navigation bar, home, about us, services, products, and contact. You can customize the content of these sections according to your requirements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+most importantlly it uses React-Spring for animation on navigation and on scroll.
 
-### Advanced Configuration
+Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Navbar.js: The navigation bar component with a dark mode toggle button.
+    DarkModeToggle.js: The dark mode toggle button component.
+    Home.js, AboutUs.js, Services.js, Products.js, Contact.js: Components for different sections of the landing page.
+    App.js: Sets up routing and renders the components.
 
-### Deployment
+Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can customize the content, styles, and functionality of each section by editing the respective components in the src/components directory. Additionally, you can modify the dark mode functionality in Navbar.js and DarkModeToggle.js to suit your design preferences.

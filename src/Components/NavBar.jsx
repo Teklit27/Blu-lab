@@ -1,5 +1,4 @@
 // Navbar.js
-
 import { useState } from 'react';
 import logo from '../assets/logo.png'
 import Switcher from './Switcher';
